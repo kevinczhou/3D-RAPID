@@ -1,0 +1,13 @@
+FROM nvcr.io/nvidia/tensorflow:20.12-tf2-py3
+
+RUN pip install tqdm
+RUN pip install opencv-python-headless
+RUN pip install scipy
+RUN pip install matplotlib
+RUN pip install xarray
+RUN pip install netcdf4
+RUN pip install jupyter
+RUN pip install "dask[complete]" 
+RUN pip install h5netcdf
+
+WORKDIR /
