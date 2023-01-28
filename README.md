@@ -3,7 +3,7 @@ We present 3D-RAPID (<ins>3D</ins> <ins>R</ins>econstruction with an <ins>A</ins
 
 The camera calibration part of the 3D-RAPID is based on our earlier work: https://github.com/kevinczhou/mesoscopic-photogrammetry
 
-For more details, see our paper at TBD.
+For more details, see our arXiv preprint: https://arxiv.org/abs/2301.08351.
 
 ## Data
 Due to the large size of these videos (~50 GB/video), we have provided just three, one of each organism (fruit flies, ants, zebrafish), which can be downloaded from [here](https://doi.org/10.7924/r4db86b1q). Each raw video file (`raw_video.nc`) has an associated calibration file (`calibration_dataset.nc`), consisting of a single synchronized snapshot of a flat patterned target.
