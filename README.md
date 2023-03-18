@@ -28,7 +28,7 @@ Alternatively, instead of using Docker, you can manually install the packages li
 We used a 24-GB GPU (RTX 3090), but if your GPU has less memory, you may need to reduce the batch or patch size.
 
 ## Usage
-Download the raw video files and the calibration file from TBD and place according to the following file path structures:
+Download the raw video files and the calibration file from [here](https://doi.org/10.7924/r4db86b1q) and place according to the following file path structures:
 - `/data/fruit_flies/raw_video.nc`
 - `/data/fruit_flies/calibration_dataset.nc`
 - `/data/harvester_ants/raw_video.nc`
