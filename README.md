@@ -1,4 +1,5 @@
 # 3D-RAPID
+<center><img src="/media/3d-rapid.jpg" alt="3D-RAPID" width="800"/></center>
 We present 3D-RAPID (<ins>3D</ins> <ins>R</ins>econstruction with an <ins>A</ins>rray-based <ins>P</ins>arallelized <ins>I</ins>maging <ins>D</ins>evice), a highly parallelized computational 3D video microscopy technique that can capture long 3D videos of freely behaving model organisms at throughputs exceeding 5 gigapixels/sec. 3D-RAPID captures 9x6=54 synchronized raw videos using a multi-camera array microscope (MCAM) architecture, whose frames are computationally fused to form video streams of globally consistent photometric composites and coregistered 3D height maps. This repository features 3D-RAPID's scalable 3D reconstruction algorithm, which employs self-supervised learning to decouple reconstruction time from the video length and number of cameras.
 
 The camera calibration part of the 3D-RAPID is based on our earlier work: https://github.com/kevinczhou/mesoscopic-photogrammetry
